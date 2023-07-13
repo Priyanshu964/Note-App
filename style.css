@@ -5,7 +5,7 @@
     
 }
 section{
-background: #636e72;
+background: linear-gradient(to right,#8B939A,#5B6467);
 padding: 10px;
 }
 section #addNote{
@@ -19,7 +19,14 @@ section #addNote{
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
+    transition: 0.3s ease;
     
+}
+#addNote:hover{
+    transform: scale(1.1);
+}
+#addNote:active{
+    transform: scale(0.8);
 }
 #main{
     width: 100%;
